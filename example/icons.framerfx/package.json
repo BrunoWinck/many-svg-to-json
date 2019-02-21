@@ -1,0 +1,16 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.4.16"
+	},
+	"peerDependencies": {
+		"framer": "^0.10.8",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"framer": {
+		"id": "35339c9f-6341-4a30-9d4e-2d1f56e1776c"
+	},
+	"author": "Bruno Winck"
+}

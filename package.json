@@ -1,0 +1,34 @@
+{
+  "name": "many-svg-to-json",
+  "version": "1.0.0",
+  "description": "Helping script to turn a directory of svg files into a stand alone json",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoWinck/many-svg-to-json.git"
+  },
+  "keywords": [
+    "svg",
+    "json",
+    "icon",
+    "library",
+    "framerx"
+  ],
+  "author": "Bruno Winck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrunoWinck/many-svg-to-json/issues"
+  },
+  "homepage": "https://github.com/BrunoWinck/many-svg-to-json#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "xml2js": "^0.4.19"
+  },
+  "bin": {
+    "many-svg-to-json": "./main.js"
+  }
+}
